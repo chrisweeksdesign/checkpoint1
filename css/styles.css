@@ -1,0 +1,146 @@
+body {
+    margin: 8 0 8 0;
+    background-image: url("https://1n5odp204eq6iagv31rrv791-wpengine.netdna-ssl.com/wp-content/uploads/cuts-off.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;}
+
+header {
+    width: 100%;
+    height: 62.95px;
+    top:0;
+    position: fixed;
+    /*box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.25);*/
+    <!-- the header changes color on scroll..not sure how-->
+    }
+
+.headright {
+    float: right;
+    width: 50%;
+    height: 100%;
+    display: inline;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.headleft {float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.headleft img {
+    top: 50%;
+    width: auto;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    padding: 17px;
+    height: auto;
+}
+
+.nav-list {
+    padding-right: 24;
+}
+.nav-list li {
+    padding: 0 16;
+    display: inline;
+    font-size: 1.3rem;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Gotham SSm A","Gotham SSm B",Arial,Helvetica,sans-serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #fff;
+  
+}
+.maincontain {
+    width: 90%;
+    height: 400px;
+    position: relative;
+    top: 300px;
+    margin: auto;
+
+    
+}
+.hungry {text-shadow: 0 0.2rem 0.2rem rgba(0,0,0,.35);
+        color: #fff;
+        font-size: 5rem;
+        line-height: 1.2;
+        font-weight: 900;
+        margin: 0;
+        font-family: "Gotham SSm A","Gotham SSm B",Arial,Helvetica,sans-serif;
+    }
+
+    .orderfavs {text-shadow: 0 0.2rem 0.2rem rgba(0,0,0,.35);
+        color: #fff;
+            font-size: 3.5rem;
+            font-weight: 500;
+            margin: 0;
+            font-family: "Gotham SSm A","Gotham SSm B",Arial,Helvetica,sans-serif;
+        }
+        .searchbarcontain {margin-top: 2.5rem;
+            display: inline-block;
+            text-shadow: none;
+            position: relative;
+        
+        }
+        .searchbar {position: relative;
+            border: 1px solid gray;
+            width: 529.83px;
+            height: 45px;
+            background: #fff;
+            box-shadow: 0 0.2rem 0.2rem 0 rgba(0,0,0,.25);
+            border-radius: .2rem;
+            padding: .5rem .5rem .5rem 1.3rem;}
+
+        .searchbarbalancer {position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            }
+
+            
+    
+            .background {object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+            .button {
+            border-radius: .2rem;
+            background-color: #00a1df;
+            text-transform: uppercase;
+            font-weight: 800;
+            color: #fff;
+            border: none;
+            font-size: 1.8rem;
+            line-height: 1;
+            left: 198px;
+            padding: 12px;
+            position: relative;}
+        }
+
+      .search-input{
+            border: none;
+            }
+   
+            .getappcontainer {
+            right:20px;
+            position:relative;
+            padding-top: 30px;}
+            
+           .searchnav li{
+            display: inline;
+            font-size: 1.3rem;
+            font-weight: 900;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: "Gotham SSm A","Gotham SSm B",Arial,Helvetica,sans-serif;
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: #fff;
+            right:20px;
+            padding: 8px;
+            position: relative;
+            text-shadow: 0 0.2rem 0.2rem rgba(0,0,0,.35);}
